@@ -10,8 +10,13 @@ eval "`dircolors`"
 alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -lAh'
 alias rm='rm -i'
-alias gs='git status'
+alias gs='git status -sb'
+alias ga='git add -A'
+alias gc='git commit'
+alias gp='git push'
+alias gpf='git push --force-with-lease'
 alias gpr='git pull --rebase'
+alias pn='pnpm'
 
 ##########################################################################################
 # Prompt
